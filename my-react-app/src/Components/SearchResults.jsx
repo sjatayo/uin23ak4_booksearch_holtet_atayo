@@ -1,5 +1,5 @@
-import React from 'react';
-import BookCard from './bookcard.jsx';
+import React from 'react'
+import BookCard from './bookcard.jsx'
 
 
 
@@ -15,7 +15,7 @@ function Resultat({ books }) {
     )
   }
   
-  export default Resultat;
+  export default Resultat
   
 
 

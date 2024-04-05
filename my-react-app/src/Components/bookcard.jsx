@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Bookkort({ title, first_publish_year, author_name, cover_i, ratings_average }) {
-  const coverImageUrl = cover_i ? `https://covers.openlibrary.org/b/id/${cover_i}-M.jpg` : 'path/to/your/placeholder/image.jpg';
+  const coverImageUrl = cover_i ? `https://covers.openlibrary.org/b/id/${cover_i}-M.jpg` : 'path/to/your/placeholder/image.jpg'
 
 
 //Dette komponenntet viser det du ser av de ulike bøkene på siden 
@@ -13,7 +13,7 @@ function Bookkort({ title, first_publish_year, author_name, cover_i, ratings_ave
       <p>Rating: {ratings_average}</p>
       <p>Forfatter: {author_name?.join(', ')}</p>
     </article>
-  );
+  )
 }
 
 
