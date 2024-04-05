@@ -10,7 +10,7 @@ function App() {
     const fetchData = async () => {
       try {
         if (query.length >= 3) {
-          const response = await fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(query)}`);
+          const response = await fetch(`https://openlibrary.org/search.json?q=james%20bond&fields=*,availability&limit=1${encodeURIComponent(query)}`);
           const data = await response.json();
           setBooks(data.docs);
         } else {

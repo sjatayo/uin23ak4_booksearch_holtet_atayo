@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BookCard({ title, first_publish_year, author_name, cover_i, ratings_average }) {
+function Bookkort({ title, first_publish_year, author_name, cover_i, ratings_average }) {
   const coverImageUrl = cover_i ? `https://covers.openlibrary.org/b/id/${cover_i}-M.jpg` : 'path/to/your/placeholder/image.jpg';
 
 
@@ -18,4 +18,4 @@ function BookCard({ title, first_publish_year, author_name, cover_i, ratings_ave
 
 
 
-export default BookCard
+export default Bookkort
